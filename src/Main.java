@@ -1,14 +1,12 @@
 public class Main {
     public static void main(String[] args) {
        //Task2
-        var frog = 3.5;
-        System.out.println(frog);
-        frog *= 10;
-        System.out.println(frog);
-        frog /= 3.5;
-        System.out.println(frog);
-        frog +=4;
-        System.out.println(frog);
+        var firstBoxerWeight = 78.2;
+        var secondBoxerWeight = 82.7;
+        var sumOfBoxerWeights = firstBoxerWeight + secondBoxerWeight;
+        System.out.println(sumOfBoxerWeights);
+        var subtractedWeights = secondBoxerWeight % firstBoxerWeight;
+        System.out.println(subtractedWeights);
 
 
 
