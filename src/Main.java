@@ -3,10 +3,10 @@ public class Main {
        //Task2
         var firstBoxerWeight = 78.2;
         var secondBoxerWeight = 82.7;
-        var sumOfBoxerWeights = firstBoxerWeight + secondBoxerWeight;
-        System.out.println(sumOfBoxerWeights);
-        var subtractedWeights = secondBoxerWeight % firstBoxerWeight;
+        var subtractedWeights = secondBoxerWeight - firstBoxerWeight;
         System.out.println(subtractedWeights);
+        var differencedWeights = secondBoxerWeight % firstBoxerWeight;
+        System.out.println(differencedWeights);
 
 
 
